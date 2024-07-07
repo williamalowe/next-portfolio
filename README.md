@@ -22,7 +22,7 @@ This repository contains the source code for a modern, responsive frontend devel
 
 1. **Clone the repository:**
    sh
-   git clone https://github.com/yourusername/portfolio-website.git
+   git clone https://github.com/williamalowe/next-portfolio.git
    cd portfolio-website
 2. **Install dependencies:**
   npm install
