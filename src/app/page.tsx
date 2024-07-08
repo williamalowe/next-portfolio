@@ -1,7 +1,9 @@
+import Intro from "@/components/intro";
+
 export default function Home() {
   return (
-    <main>
-      Hello World
+    <main className="flex flex-col items-center">
+      <Intro />
     </main>
   );
 }
