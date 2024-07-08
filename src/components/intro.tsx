@@ -94,14 +94,14 @@ export default function Intro() {
           delay: 0.1
         }}
       >
-        <Link href='#contact' className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full">
-          Get in touch <BsArrowRight />
+        <Link href='#contact' className=" group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 hover:bg-gray-950 active:scale-105 transition">
+          Get in touch <BsArrowRight  className="opacity-70 group-hover:translate-x-2 transition"/>
         </Link>
-        <a className="bg-white px-7 py-3 flex items-center gap-2 rounded-full">
-          Download CV <HiDownload />
+        <a href="/cv.pdf" download={true} className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10">
+          Download CV <HiDownload   className="opacity-70 group-hover:translate-y-1 transition"/>
         </a>
-        <a href="" className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full"><BsLinkedin/></a>
-        <a href="" className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full"><BsGithub/></a>
+        <a href="https://www.linkedin.com/in/william-lowe-b08707297/" target="_blank" className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"><BsLinkedin/></a>
+        <a href="https://github.com/williamalowe" target="_blank" className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"><BsGithub/></a>
       </motion.div>
     </section>
   );
