@@ -56,7 +56,16 @@ export default function Intro() {
           </motion.span>
         </motion.div>
       </div>
-      <p className="mb-10 mt-4 px-4 text-2xl !leading-[1.5]">
+      <motion.p className="mb-10 mt-4 px-4 text-2xl !leading-[1.5]"
+        initial={{
+          opacity: 0,
+          y: 100
+        }}
+        animate={{
+          opacity: 1,
+          y: 0
+        }}
+      >
         <span className="font-bold">Hi there, I&apos;m William Lowe.</span> Just
         a soon-to-graduate <span className="font-bold">Computer Science</span>{" "}
         student, fresh <span className="font-bold">frontend developer</span>,
@@ -66,7 +75,7 @@ export default function Intro() {
         <span className="italic">practicing</span> and{" "}
         <span className="italic">evolving</span> my skills so that I can become
         the <span className="underline">best developer</span> that I can be.
-      </p>
+      </motion.p>
     </section>
   );
 }
