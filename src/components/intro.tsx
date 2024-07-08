@@ -2,6 +2,9 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
+import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
+import { HiDownload } from "react-icons/hi";
 
 export default function Intro() {
   return (
@@ -76,6 +79,30 @@ export default function Intro() {
         <span className="italic">evolving</span> my skills so that I can become
         the <span className="underline">best developer</span> that I can be.
       </motion.p>
+
+      <motion.div 
+        className="flex flex-col sm:flex-row gap-2 px-4 items-center justify-center text-lg font-medium"
+        initial={{
+          opacity: 0,
+          y: 100
+        }}
+        animate={{
+          opacity: 1,
+          y: 0
+        }}
+        transition={{
+          delay: 0.1
+        }}
+      >
+        <Link href='#contact' className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full">
+          Get in touch <BsArrowRight />
+        </Link>
+        <a className="bg-white px-7 py-3 flex items-center gap-2 rounded-full">
+          Download CV <HiDownload />
+        </a>
+        <a href="" className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full"><BsLinkedin/></a>
+        <a href="" className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full"><BsGithub/></a>
+      </motion.div>
     </section>
   );
 }
