@@ -3,6 +3,7 @@ import { M_PLUS_1_Code } from "next/font/google";
 import "./globals.css";
 import ThemeContextProvider from "@/context/theme-context";
 import ThemeSwitch from "@/components/theme-switch";
+import Background from "@/components/background";
 
 const font = M_PLUS_1_Code({ subsets: ["latin"] });
 
@@ -19,9 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${font.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-950 dark:text-gray-50`}
+        className={`${font.className} min-h-screen`}
       >
         <ThemeContextProvider>
+          <Background />
           {children}
           <ThemeSwitch />
         </ThemeContextProvider>
