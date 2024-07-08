@@ -7,7 +7,8 @@ export default function Background() {
       <motion.div 
         className="absolute inset-0 -z-10 h-[200vh] w-[200vw] bg-white 
         bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] 
-        bg-[size:6rem_6rem] dark:bg-zinc-800 dark:bg-[linear-gradient(to_right,#3a3a3a_1px,transparent_1px),linear-gradient(to_bottom,#3a3a3a_1px,transparent_1px)] " 
+        bg-[size:6rem_6rem] dark:bg-zinc-800 dark:bg-[linear-gradient(to_right,#3a3a3a_1px,transparent_1px),linear-gradient(to_bottom,#3a3a3a_1px,transparent_1px)]
+        sm:bg-[size:8rem_8rem]" 
         initial={{
           x: 0,
           y: 0,
