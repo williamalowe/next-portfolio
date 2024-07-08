@@ -4,6 +4,7 @@ import "./globals.css";
 import ThemeContextProvider from "@/context/theme-context";
 import ThemeSwitch from "@/components/theme-switch";
 import Background from "@/components/background";
+import Header from "@/components/header";
 
 const font = M_PLUS_1_Code({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
       >
         <ThemeContextProvider>
           <Background />
+          <Header />
           {children}
           <ThemeSwitch />
         </ThemeContextProvider>
