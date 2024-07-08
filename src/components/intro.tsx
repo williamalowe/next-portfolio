@@ -82,7 +82,7 @@ export default function Intro() {
         <a
           href="/cv.pdf"
           download
-          className="group bg-white px-7 py-3 flex items-center gap-x-2 rounded-md outline-none hover:scale-110 active:scale-95 transition cursor-pointer border dark:bg-white/10"
+          className="group bg-white px-7 py-3 flex items-center gap-x-2 rounded-md outline-none hover:scale-110 active:scale-95 transition cursor-pointer border backdrop-blur-[0.5rem] dark:bg-white/20 dark:text-white/80"
         >
           Download CV{" "}
           <BsDownload className="opacity-60 group-hover:translate-y-1 transition" />
@@ -90,14 +90,14 @@ export default function Intro() {
         <a
           href="https://www.linkedin.com/in/william-lowe-b08707297/"
           target="_blank"
-          className="bg-white p-4 text-zinc-700 hover:text-zinc-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-zinc-700 hover:text-zinc-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border backdrop-blur-[0.5rem] dark:bg-white/20 dark:text-white/80"
         >
           <BsLinkedin />
         </a>
         <a
           href="https://github.com/williamalowe"
           target="_blank"
-          className="bg-white p-4 text-zinc-700 hover:text-zinc-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-zinc-700 hover:text-zinc-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border backdrop-blur-[0.5rem] dark:bg-white/20 dark:text-white/80"
         >
           <BsGithub />
         </a>
