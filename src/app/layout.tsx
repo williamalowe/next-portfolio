@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${font.className} min-h-screen`}
+        className={`${font.className} min-h-screen text-zinc-900 dark:text-zinc-50/80`}
       >
         <ThemeContextProvider>
           <Background />
