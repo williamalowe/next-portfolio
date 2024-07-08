@@ -59,7 +59,7 @@ export default function Intro() {
         as a <span className="font-bold">developer</span>.
       </motion.p>
       <motion.div
-        className="flex gap-x-2"
+        className="flex flex-col gap-2 items-center justify-center sm:flex-row"
         initial={{
           opacity: 0,
           y: 100,
@@ -87,6 +87,7 @@ export default function Intro() {
           Download CV{" "}
           <BsDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
+        <div className="flex gap-x-4">
         <a
           href="https://www.linkedin.com/in/william-lowe-b08707297/"
           target="_blank"
@@ -101,6 +102,7 @@ export default function Intro() {
         >
           <BsGithub />
         </a>
+        </div>
       </motion.div>
     </section>
   );
