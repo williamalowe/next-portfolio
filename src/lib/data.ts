@@ -32,28 +32,60 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelor of Computer Science",
+    location: "Deakin University - Burwood",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Gained an understanding of computer systems, software development, algorithms, and problem-solving techniques. Core units provided the foundational basis for concepts including AI, networking, security, programming principles, and more. Completed elective units in UI/UX Design, Responsive Web Applications, and Games Design. Completed Capstone Units working on frontend migration tasks for a live education platform with 1000s of daily users.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Current",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Data Entry Team Leader",
+    location: "IPSOS Pty Ltd",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Conducted QA on digitized surveys, as well as provided training/feedback to team-members. Assisted with onboarding new staff, and assisted regularly with other projects. Conducted logic checks on datasets, and also tested, documentated, and provided feedback for new internal data entry systems and tools.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - Current",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Foundations + Full Stack Development Course",
+    location: "The Odin Project - Online",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Completed foundations course covering basics of HTML, CSS, and JavaScript. Also compeleted the Full Stack JavaScript course, covering more advanced HTML, CSS, and JavaScript as well as React, Node, Jest, Git, web design principles, best practices, and more.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - 2024",
+  },
+  {
+    title: "Student Frontend Developer",
+    location: "Thoth Tech - Deakin University",
+    description:
+      "Assisted in frontend-migration tasks of live Doubtfire: Ontrack education platform, built with Angular and Ruby-on-rails, with 1000s of daily users. Updated outdated and depreciated Angular fxLayout properties with equivalent tailwind styles. Provided code reviews, bug resolutions, and PRs for dozens of components. Invited to return as a student mentor for other students.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - 2024",
+  },
+  {
+    title: "IT Technical Support/Advisor",
+    location: "Yea Medical Clinic",
+    description:
+      "Resolved various IT-related issues. Updated hardware and SQL database software across entire practice. Set up backup security measures, and worked with MedicalDirector to oversee system security and management. Provided advice on hardware and software solutions.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2023",
+  },
+  {
+    title: "Diploma of Information Technology",
+    location: "Deakin College - Burwood",
+    description:
+      "Graduated with a foundational understanding of general IT concepts, including computer hardware, software applications, networking fundamentals, and introductory programming.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2020",
+  },
+  {
+    title: "Hospitality Team Leader",
+    location: "Grill'd Pty Ltd",
+    description:
+      "Completed leadership training after 12 months at the request of both management and team-members. Completed team-member duties as well as oversaw day-to-day operations, managed customer inquieries/complaints, created station plans, trained new team-members and upcoming team-leaders. Opened and closed the restaurant, managed stock levels and set team KPIs.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2017 - 2022",
   },
 ] as const;
 
@@ -62,10 +94,16 @@ export const projectsData = [
     title: "Dockitt",
     description:
       "Currently undergoing a redesign, transitioning to Next.js and MongoDB, Dockitt is a task management application with a kanban-board and productivity dashboard.",
-    tags: ["React (vite)", "css-modules", "local-storage", "react-router-dom", "ContextAPI"],
+    tags: [
+      "React (vite)",
+      "css-modules",
+      "local-storage",
+      "react-router-dom",
+      "ContextAPI",
+    ],
     imageUrl: "",
     demoURL: "",
-    repoURL: ""
+    repoURL: "",
   },
   {
     title: "TheadHundred",
@@ -74,7 +112,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: "",
     demoURL: "",
-    repoURL: ""
+    repoURL: "",
   },
   {
     title: "Sentinel",
@@ -83,7 +121,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: "",
     demoURL: "",
-    repoURL: ""
+    repoURL: "",
   },
   {
     title: "Diskord",
@@ -92,7 +130,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: "",
     demoURL: "",
-    repoURL: ""
+    repoURL: "",
   },
   {
     title: "Other Projects",
@@ -101,7 +139,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: "",
     demoURL: "",
-    repoURL: ""
+    repoURL: "",
   },
   {
     title: "CorpComment",
@@ -110,7 +148,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: "",
     demoURL: "",
-    repoURL: ""
+    repoURL: "",
   },
 ] as const;
 
