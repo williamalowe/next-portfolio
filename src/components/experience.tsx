@@ -15,7 +15,7 @@ export default function Experience() {
   return (
     <div className="flex flex-col items-center gap-y-4">
       <h3 className="text-2xl font-bold">Experience</h3>
-      <VerticalTimeline lineColor={theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.15"}>
+      <VerticalTimeline lineColor={theme === "light" ? "#f3f4f6" : "#52525b"}>
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
@@ -38,8 +38,9 @@ export default function Experience() {
               icon={item.icon}
               iconStyle={{
                 background:
-                  theme === "light" ? "white" : "rgba(0, 0, 0)",
+                  theme === "light" ? "white" : "#52525b",
                 fontSize: "1.5rem",
+                boxShadow: theme === "light" ? "" : "none"
               }}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
