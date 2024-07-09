@@ -25,7 +25,7 @@ export default function ProjectCard({ title, description, tags, imgURL, demoURL,
 
   return (
     <motion.div 
-      className={`${isAlt && 'flex-row-reverse'} relative flex bg-zinc-100 max-w-[42rem] h-[20rem] border border-black/5 rounded-md overflow-hidden dark:bg-zinc-700`}
+      className={`${isAlt && 'flex-row-reverse'} flex bg-zinc-100 max-w-[42rem] h-[20rem] border border-black/5 rounded-md overflow-hidden dark:bg-zinc-700`}
       ref={projectRef}
       style={{
         scale: scaleProg,
