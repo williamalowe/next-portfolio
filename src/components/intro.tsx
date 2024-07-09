@@ -37,7 +37,7 @@ export default function Intro() {
         </div>
       </motion.div>
       <motion.p
-        className="px-8 text-center max-w-[800px] leading-relaxed"
+        className="px-8 mt-8 text-center max-w-[800px] leading-relaxed"
         initial={{
           opacity: 0,
           y: 100,
@@ -74,7 +74,7 @@ export default function Intro() {
       >
         <Link
           href="#"
-          className="group flex bg-zinc-900 text-white px-7 py-3 items-center gap-2 rounded-md outline-none hover:scale-110 hover:bg-zinc-950 active:scale-95 transition"
+          className="group flex bg-zinc-900 text-white px-7 py-3 items-center gap-2 rounded-md border border-black hover:scale-110 hover:z-20 hover:bg-zinc-950 active:scale-95 transition"
         >
           Wanna get in touch?{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-2 transition" />
@@ -82,7 +82,7 @@ export default function Intro() {
         <a
           href="/cv.pdf"
           download
-          className="group bg-white px-7 py-3 flex items-center gap-x-2 rounded-md outline-none hover:scale-110 active:scale-95 transition cursor-pointer border backdrop-blur-[0.5rem] dark:bg-white/20 dark:text-white/80"
+          className="group bg-white px-7 py-3 flex items-center gap-x-2 rounded-md outline-none hover:scale-110 active:scale-95 hover:z-20 transition cursor-pointer border backdrop-blur-[0.5rem] dark:bg-white/20 dark:text-white/80"
         >
           Download CV{" "}
           <BsDownload className="opacity-60 group-hover:translate-y-1 transition" />
