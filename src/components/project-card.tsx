@@ -34,7 +34,7 @@ export default function ProjectCard({ title, description, tags, imgURL, demoURL,
     >
       <section className="flex flex-col gap-y-2 h-full p-6 flex-1 w-1/2">
         <h5 className="text-xl font-bold">Title Here</h5>
-        <p className="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos est dolor ullam mollitia fuga temporibus! Earum non enim iusto nihil! Totam cumque facilis quaerat debitis. Sequi illum vel in distinctio!</p>
+        <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos est dolor ullam mollitia fuga temporibus! Earum non enim iusto nihil! Totam cumque facilis quaerat debitis. Sequi illum vel in distinctio!</p>
         <ul className="flex flex-wrap gap-1 mt-auto">
           <li className="bg-black/[70] px-3 py-1 text-xs uppercase tracking-wider text-white rounded-full">HTML</li>
           <li className="bg-black/[70] px-3 py-1 text-xs uppercase tracking-wider text-white rounded-full">CSS</li>
@@ -54,8 +54,8 @@ export default function ProjectCard({ title, description, tags, imgURL, demoURL,
       />
       </div>
         <div className={`${isAlt ? 'left-2' : 'right-2'} absolute top-2 flex gap-x-2`}>
-          <a href="#" className="text-sm bg-zinc-900 text-white p-2 flex items-center gap-x-2 rounded-md outline-none hover:scale-110 active:scale-95 hover:z-20 transition cursor-pointer border backdrop-blur-[0.5rem] dark:bg-white/20 dark:text-white/80">Demo Link</a>
-          <a href="#" className="text-sm bg-white p-2 flex items-center gap-x-2 rounded-md outline-none hover:scale-110 active:scale-95 hover:z-20 transition cursor-pointer border backdrop-blur-[0.5rem] dark:bg-white/20 dark:text-white/80">Repo Link</a>
+          <a href="#" className="text-sm bg-zinc-900 text-white p-2 flex items-center gap-x-2 rounded-md outline-none hover:scale-110 active:scale-95 hover:z-20">Demo Link</a>
+          <a href="#" className="text-sm bg-white p-2 flex items-center gap-x-2 rounded-md outline-none hover:scale-110 active:scale-95 hover:z-20 transition cursor-pointer border backdrop-blur-[0.5rem] dark:text-zinc-900">Repo Link</a>
         </div>
     </motion.div>
   )
